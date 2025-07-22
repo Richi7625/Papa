@@ -9,13 +9,13 @@
 <body>
 
   <header>
-    <h1><!-- Hier Haupttitel einfügen --></h1>
+    <h1><!-- Wielkommen  --></h1>
   </header>
 
   <main>
     <section>
-      <h2><!-- Hier Untertitel --></h2>
-      <p><!-- Hier kommt dein Text --></p>
+      <h2><!--  --></h2>
+      <p><!-- Hallo Papa --></p>
       <img src="bild.jpg" alt="Produktbild"><!-- Bilddatei ersetzen -->
     </section>
 
