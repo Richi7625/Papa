@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Meine Webseite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1><!-- Hier Haupttitel einfügen --></h1>
+  </header>
+
+  <main>
+    <section>
+      <h2><!-- Hier Untertitel --></h2>
+      <p><!-- Hier kommt dein Text --></p>
+      <img src="bild.jpg" alt="Produktbild"><!-- Bilddatei ersetzen -->
+    </section>
+
+    <a href="produkt.html">Zur Produktseite</a>
+  </main>
+
+  <footer>
+    <label>
+      <input type="checkbox" id="agbCheck"> Ich akzeptiere die AGB
+    </label>
+    <button onclick="checkAGB()">Weiter</button>
+  </footer>
+
+  <script>
+    function checkAGB() {
+      if (!document.getElementById("agbCheck").checked) {
+        alert("Bitte akzeptieren Sie die AGB.");
+      } else {
+        window.location.href = "produkt.html";
+      }
+    }
+  </script>
+</body>
+</html>
